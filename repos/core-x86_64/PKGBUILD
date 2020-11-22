@@ -1,9 +1,10 @@
 # Maintainer: Andreas Radke <andyrtr@archlinux.org>
 
-pkgbase=linux-lts
+pkgbase=linux-lts-aman
 pkgver=5.4.95
 pkgrel=1
 pkgdesc='LTS Linux'
+provides=(linux-lts)
 url="https://www.kernel.org/"
 arch=(x86_64)
 license=(GPL2)
